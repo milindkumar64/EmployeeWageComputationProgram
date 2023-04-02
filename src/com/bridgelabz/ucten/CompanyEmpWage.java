@@ -21,7 +21,7 @@ public void setTotalEmpWage(int totalEmpWage){
 @Override
 public String toString()
 {
-	return "Total Emp Wage for : " +this.companyName+ " is :"+totalWage;
+	return "Total Emp Wage for : " +companyName+ " is :"+totalWage;
 	
 }
 

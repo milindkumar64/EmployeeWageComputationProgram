@@ -20,7 +20,7 @@ public class EmployeeWageBuilderArray {
 	 private void computeEmpWage() {
 		 for(int i =0;i<numOfCompany;i++)
 		 {
-			 companyEmpWageArray[i].setTotalEmpWage(this.computeEmpWage(companyEmpWageArray[i]));
+			 companyEmpWageArray[i].setTotalEmpWage(computeEmpWage(companyEmpWageArray[i]));
 			 System.out.println(companyEmpWageArray[i]);
 		 }
 	 }
@@ -51,7 +51,6 @@ public class EmployeeWageBuilderArray {
 			}
 			return CompanyEmpWage.totalWage;
 	}	 
-
 	public static void main(String[] args) {
 	
 		EmployeeWageBuilderArray empWageBuilder = new EmployeeWageBuilderArray();
